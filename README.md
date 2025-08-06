@@ -42,6 +42,7 @@ ID,Nume,E-mail,Parola,Last_Login
 `chmod +x script.sh`
 
 `./script.sh`
+
 Make sure you run the script in a Linux terminal with Bash installed.
 
 ## Notes
