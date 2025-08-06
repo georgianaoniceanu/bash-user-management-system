@@ -37,3 +37,19 @@ This is a simple Bash script that simulates a basic user registration, login, an
 Example content of `utilizatori.csv`:
 ID,Nume,E-mail,Parola,Last_Login
 1001,georgiana,georgiana@student.ro,Parola123,2025.08.04 13:12:50
+
+## How to Run
+*chmod +x script.sh
+./script.sh*
+Make sure you run the script in a Linux terminal with Bash installed.
+
+## Notes
+Passwords are stored in plain text – use only in educational or demo environments.
+Email must end with @student.ro
+The logged_in_users array exists only during runtime (not persistent)
+
+## Possible Improvements
+Store hashed passwords using sha256sum or similar
+Add support for command-line arguments (e.g., --register, --login)
+Save logged-in users to a temporary file for persistence
+Add admin mode to list all registered users
