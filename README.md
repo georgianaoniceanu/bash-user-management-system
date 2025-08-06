@@ -39,8 +39,8 @@ ID,Nume,E-mail,Parola,Last_Login
 1001,georgiana,georgiana@student.ro,Parola123,2025.08.04 13:12:50
 
 ## How to Run
-*chmod +x script.sh
-./script.sh*
+** chmod +x script.sh **
+** ./script.sh **
 Make sure you run the script in a Linux terminal with Bash installed.
 
 ## Notes
